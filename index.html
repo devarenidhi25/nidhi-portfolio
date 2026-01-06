@@ -15,6 +15,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -33,10 +34,8 @@
             </div>
         </div>
         <div class="hero-image">
-            <div class="profile-placeholder">
-                <i class="fas fa-user"></i>
-            </div>
-        </div>
+            <img src="nidhi passport.jpeg" alt="Nidhi Devare" class="profile-image">
+        </img>
     </section>
 
     <section id="about" class="about">
@@ -45,7 +44,15 @@
             <div class="underline"></div>
         </div>
         <div class="about-content">
-            <p>Motivated second-year Computer Engineering student with strong coding skills, passionate about data science, artificial intelligence, and building impactful software solutions. Currently enhancing my web development skills and eager to contribute to innovative projects.</p>
+            <div class="objective">
+                <h3>Career Objective</h3>
+                <p>Passionate Computer Engineering student (2023–2027) with hands-on experience in web development, data science, and AI. Skilled in Python, JavaScript, and React. Eager to contribute to impactful projects and grow in a collaborative tech environment.</p>
+            </div>
+            <div class="profile-summary">
+                <h3>Profile Summary</h3>
+                <p>AI & Data Science Enthusiast | Full-Stack Developer | Built 6+ AI-powered apps deployed on Vercel/Render/Firebase</p>
+            </div>
+            <p style="margin-top: 1.5rem;">Motivated Computer Engineering student with strong coding skills, passionate about data science, artificial intelligence, and building impactful software solutions. Currently enhancing my web development skills and eager to contribute to innovative projects.</p>
             <div class="personal-info">
                 <div class="info-item">
                     <i class="fas fa-map-marker-alt"></i>
@@ -80,9 +87,9 @@
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
-                    <h3>BTech in Computer Engineering</h3>
-                    <p class="timeline-date">Expected 2027</p>
-                    <p>1st Year CGPA: 7.47</p>
+                    <h3>B.Tech in Computer Engineering</h3>
+                    <p class="timeline-date">Pimpri Chinchwad College of Engineering | 2023 – 2027</p>
+                    <p>Pursuing degree in Computer Engineering</p>
                 </div>
             </div>
             <div class="timeline-item">
@@ -104,6 +111,26 @@
         </div>
     </section>
 
+    <section id="experience" class="experience">
+        <div class="section-header">
+            <h2>Experience</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Junior Webmaster</h3>
+                    <p class="timeline-date">PCCOE ACM-W Student Chapter | Oct 2024 – Apr 2025</p>
+                    <ul class="experience-list">
+                        <li>Maintained and updated the chapter website using HTML, CSS, and JavaScript</li>
+                        <li>Designed event pages and improved online visibility</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="projects" class="projects">
         <div class="section-header">
             <h2>Projects</h2>
@@ -112,26 +139,41 @@
         <div class="project-cards">
             <div class="project-card">
                 <div class="project-icon">
-                    <i class="fas fa-ice-cream"></i>
+                    <i class="fas fa-leaf"></i>
                 </div>
-                <h3>Ice Cream Store Website</h3>
-                <p>Developed a fully functional ecommerce-style website where users can customize and order their own ice cream creations. Implemented user-friendly design and order management features using HTML, CSS, and JavaScript.</p>
+                <h3>Cultural Compass: Discover India's Heritage</h3>
+                <p>Developed an interactive Streamlit web app to showcase India's cultural heritage, using Python, Pandas, NumPy, and Plotly for data analysis and visualization, and Folium for geospatial mapping. Employed Snowflake as the cloud data warehouse for efficient storage and retrieval of large cultural and geographical datasets.</p>
                 <div class="project-tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
+                    <span>Streamlit</span>
+                    <span>Python</span>
+                    <span>Snowflake</span>
+                    <span>Plotly</span>
                 </div>
             </div>
             <div class="project-card">
                 <div class="project-icon">
-                    <i class="fas fa-robot"></i>
+                    <i class="fas fa-envelope"></i>
                 </div>
-                <h3>Medical Chatbot – Hackathon Project</h3>
-                <p>Contributed to the frontend development of a medical chatbot named Medibot (also called Dr. Mama), designed to assist users with medical queries. Built using React.js, HTML, and CSS; integrated chatbot functionalities with machine learning components on the backend.</p>
+                <h3>Spam Detection Using Machine Learning</h3>
+                <p>Built a spam classifier with TF-IDF and multiple models; SVM achieved 98% accuracy. Evaluated models using accuracy, precision, recall, F1-score, and confusion matrix; implemented a real-time spam prediction function for new user messages.</p>
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>scikit-learn</span>
+                    <span>ML</span>
+                    <span>TF-IDF</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <h3>LokKala – AI-Powered Marketplace for Local Artisans</h3>
+                <p>Built a full-stack marketplace platform using React, FastAPI, Firebase, and Google Gemini to help Indian artisans upload products, auto-generate captions, schedule social media posts, and create shareable catalogs. Implemented voice/vision search, multilingual support, and BigQuery ML insights. Deployed on Firebase, Vercel, and Render.</p>
                 <div class="project-tags">
                     <span>React.js</span>
-                    <span>HTML</span>
-                    <span>CSS</span>
+                    <span>FastAPI</span>
+                    <span>Google Gemini</span>
+                    <span>Firebase</span>
                 </div>
             </div>
             <div class="project-card">
@@ -139,11 +181,25 @@
                     <i class="fas fa-shield-alt"></i>
                 </div>
                 <h3>Women Safety Workspace Website</h3>
-                <p>Developed the frontend for a safety-focused platform aimed at providing resources and emergency support for women in workspaces. The website included a machine learning model to assess risk severity and a chatbot for instant assistance.</p>
+                <p>Built a responsive frontend for a women's workplace safety platform using HTML, CSS, JavaScript, and Bootstrap, enabling secure reporting, PDF generation, and compliance with the POSH Act, 2013. Integrated ML features like severity classification and an AI chatbot for support and workflow automation.</p>
                 <div class="project-tags">
                     <span>HTML</span>
                     <span>CSS</span>
-                    <span>JavaScript</span>
+                    <span>Bootstrap</span>
+                    <span>Python ML</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>TrendInsight – React & Django</h3>
+                <p>Built a React–Django real estate analytics chatbot that interprets natural language queries to deliver area-wise price trends, demand insights, and comparisons. Integrated interactive charts, voice input/output, and Excel-based data processing for real-time market analysis.</p>
+                <div class="project-tags">
+                    <span>React.js</span>
+                    <span>Django</span>
+                    <span>Web Speech API</span>
+                    <span>NLP</span>
                 </div>
             </div>
         </div>
@@ -156,10 +212,10 @@
         </div>
         <div class="skills-container">
             <div class="skills-column">
-                <h3>Technical Skills</h3>
+                <h3>Programming & Analytics</h3>
                 <div class="skill-bars">
                     <div class="skill">
-                        <div class="skill-name">HTML/CSS</div>
+                        <div class="skill-name">Python</div>
                         <div class="skill-bar">
                             <div class="skill-level" style="width: 90%"></div>
                         </div>
@@ -167,71 +223,78 @@
                     <div class="skill">
                         <div class="skill-name">JavaScript</div>
                         <div class="skill-bar">
-                            <div class="skill-level" style="width: 75%"></div>
+                            <div class="skill-level" style="width: 85%"></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <div class="skill-name">React.js</div>
-                        <div class="skill-bar">
-                            <div class="skill-level" style="width: 65%"></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <div class="skill-name">Python</div>
+                        <div class="skill-name">SQL</div>
                         <div class="skill-bar">
                             <div class="skill-level" style="width: 80%"></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <div class="skill-name">C++</div>
+                        <div class="skill-name">Excel (Advanced)</div>
                         <div class="skill-bar">
-                            <div class="skill-level" style="width: 70%"></div>
+                            <div class="skill-level" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+                <h3 style="margin-top: 2rem;">Frameworks & Libraries</h3>
+                <div class="skill-bars">
+                    <div class="skill">
+                        <div class="skill-name">React.js</div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%"></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <div class="skill-name">C</div>
+                        <div class="skill-name">Django & FastAPI</div>
                         <div class="skill-bar">
                             <div class="skill-level" style="width: 75%"></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <div class="skill-name">Data Structures & Algorithms</div>
+                        <div class="skill-name">Pandas & NumPy</div>
                         <div class="skill-bar">
-                            <div class="skill-level" style="width: 70%"></div>
+                            <div class="skill-level" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">scikit-learn & TensorFlow</div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 75%"></div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="skills-column">
-                <h3>Certifications</h3>
+                <h3>Tools & Platforms</h3>
+                <ul class="tool-list">
+                    <li><i class="fab fa-github"></i> Git & GitHub</li>
+                    <li><i class="fas fa-notebook"></i> Jupyter Notebook</li>
+                    <li><i class="fas fa-rocket"></i> Vercel & Render</li>
+                    <li><i class="fab fa-firebase"></i> Firebase</li>
+                    <li><i class="fas fa-database"></i> Snowflake</li>
+                </ul>
+                <h3 style="margin-top: 2rem;">Certifications</h3>
                 <ul class="certification-list">
                     <li>
                         <i class="fas fa-certificate"></i>
-                        <span>Data Structures & Algorithms in Python - Udemy</span>
+                        <span>NPTEL: Data Science for Engineers</span>
                     </li>
                     <li>
                         <i class="fas fa-certificate"></i>
-                        <span>Introduction to Generative AI - AWS Skill Builder (Ongoing)</span>
+                        <span>Udemy: Data Structures and Algorithms in Python</span>
                     </li>
                     <li>
                         <i class="fas fa-certificate"></i>
-                        <span>Basics of Java - Coding Ninjas</span>
+                        <span>Udemy: Java Masterclass (OOP, Collections, Core Java)</span>
                     </li>
                     <li>
                         <i class="fas fa-certificate"></i>
-                        <span>Basics of Python - Coding Ninjas</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-certificate"></i>
-                        <span>Data Science for Engineers – NPTEL Swayam (Scored 68%)</span>
+                        <span>Coding Ninjas: Basics of Python | Basics of Java</span>
                     </li>
                 </ul>
-                <h3>Languages</h3>
-                <div class="languages">
-                    <span class="language-tag">English</span>
-                    <span class="language-tag">Marathi</span>
-                    <span class="language-tag">Hindi</span>
-                </div>
             </div>
         </div>
     </section>
